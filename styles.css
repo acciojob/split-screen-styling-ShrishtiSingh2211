@@ -35,7 +35,7 @@ article {
 }
 
 aside {
-  width: 25%; /* 1/4th of the section width */
+  width: 25%; /* 1/4th of the section width*/
 }
 nav, header, section, footer {
   padding: 1em;
