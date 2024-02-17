@@ -1,34 +1,42 @@
 /*  your css code here. If applicable */
-.main{
-	display:grid;
-	grid-template-columns:repeat(3, 1fr);
-	grid-template-rows: minmax(100px, auto);
-	gap:2px;
-	padding:1em;
+body {
+  display: flex;
 }
-.nav{
-	grid-column: 1;
-    grid-row: 1/6 ;
-	background-color:#D7E8D4
+
+main {
+  display: flex;
+  flex-direction: column;
 }
-.header{
-	background-color:yellowgreen;
-	grid-column: 1/5;
-    grid-row: 1;
+
+section {
+  display: flex;
 }
-.footer{
-	background-color:yellowgreen;
-	grid-column: 1/5;
-    grid-row: 1;
+nav {
+  width: 16.67vw; /* 1/6th of the viewport width */
+  background-color: #D7E8D4;
 }
-.content{
-    grid-column: 3/4;
-    grid-row: 1 ;	
-	height:60vh;
-	display:flex;
-	
+
+main {
+  width: 83.33vw; /* 5/6th of the viewport width */
 }
-.aside{
-	grid-column: 1/4;
-    grid-row: 1 ;
+
+header, footer {
+  height: 20vh; /* 1/5th of the viewport height */
+  background-color: yellowgreen;
+}
+
+section {
+  height: 80vh; /* 4/5th of the viewport height */
+}
+
+article {
+  width: 75%; /* 3/4th of the section width */
+  min-height: 60vh;
+}
+
+aside {
+  width: 25%; /* 1/4th of the section width */
+}
+nav, header, section, footer {
+  padding: 1em;
 }
