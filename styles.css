@@ -22,11 +22,6 @@
     grid-row: 1;
 }
 .content{
-	rid-template-columns:repeat(2, 1fr);
-	grid-column: 4/5;
-    grid-row: 1 ;
-}
-.art{
     grid-column: 3/4;
     grid-row: 1 ;	
 	height:60vh;
