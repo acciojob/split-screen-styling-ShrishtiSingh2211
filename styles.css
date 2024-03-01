@@ -30,15 +30,12 @@ section {
 }
 
 .content>article {
-	display:flex;
-	flex:3 1 0%;
-  width: 75%; /* 3/4th of the section width */
-  min-height: 60vh;
+  flex: 3; /* This will make the article take up 3/4th of the section width */
 }
 
 aside {
-  width: 25%; /* 1/4th of the section width*/
-	background-color:lightgray;
+  flex: 1;
+	background-color:lightgray;/* This will make the aside take up 1/4th of the section width */
 }
 nav, header, section, footer {
   padding: 1em;
