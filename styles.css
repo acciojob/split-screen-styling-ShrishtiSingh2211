@@ -30,6 +30,8 @@ section {
 }
 
 .content>article {
+	display:flex;
+	flex:3 1 0%;
   width: 75%; /* 3/4th of the section width */
   min-height: 60vh;
 }
