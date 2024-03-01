@@ -36,6 +36,7 @@ article {
 
 aside {
   width: 25%; /* 1/4th of the section width*/
+	background-color:lightgray;
 }
 nav, header, section, footer {
   padding: 1em;
